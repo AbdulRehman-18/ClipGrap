@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ClipGrab",
   description: "Download any video online",
+  icons: {
+    icon: "/void_cube_noshadow.ico",
+  },
 };
 
 export default function RootLayout({
